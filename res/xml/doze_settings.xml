@@ -19,12 +19,14 @@
     <SwitchPreference
         android:key="always_on_ambient"
         android:defaultValue="false"
+        android:icon="@drawable/always_on_ambient"
         android:title="@string/aod_setting_title"
         android:summary="@string/aod_setting_summary" />
 
     <SwitchPreference
         android:key="ambient_display"
         android:defaultValue="true"
+        android:icon="@drawable/ambient_display"
         android:title="@string/ambient_display_title"
         android:summary="@string/ambient_display_summary" />
 
@@ -35,12 +37,14 @@
         <SwitchPreference
             android:key="gesture_hand_wave"
             android:defaultValue="false"
+            android:icon="@drawable/gesture_hand_wave"
             android:title="@string/hand_wave_gesture_title"
             android:summary="@string/hand_wave_gesture_summary" />
 
         <SwitchPreference
             android:key="gesture_pocket"
             android:defaultValue="false"
+            android:icon="@drawable/gesture_pocket"
             android:title="@string/pocket_gesture_title"
             android:summary="@string/pocket_gesture_summary" />
 
@@ -48,6 +52,7 @@
 
     <Preference
         android:key="doze_brightness"
+        android:icon="@drawable/doze_brightness"
         android:title="@string/doze_brightness_title"
         android:summary="@string/doze_brightness_summary">
     <intent
