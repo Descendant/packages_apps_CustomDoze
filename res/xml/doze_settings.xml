@@ -30,13 +30,6 @@
         android:title="@string/ambient_display_title"
         android:summary="@string/ambient_display_summary" />
 
-    <Preference
-        android:key="force_ambient_for_media_pref"
-        android:icon="@drawable/ic_music_note"
-        android:fragment="com.android.settings.AmbientTicker"
-        android:title="@string/force_ambient_for_media_pref_title"
-        android:summary="@string/force_ambient_for_media_pref_summary"/>
-
     <PreferenceCategory
         android:key="proximity_sensor"
         android:title="@string/priximity_sensor_title" >

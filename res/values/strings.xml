@@ -41,11 +41,4 @@
     <string name="reset_hidden_apps">Reset all</string>
 
     <string name="footer_info">If Always ON Ambient is enabled, brightness gets recalculated to follow hardware and PowerManager specifications for AoD, so don\'t consider above values as absolute ones.</string>
-
-    <!-- Ambient Ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
-    <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track.</string>
-    <string name="force_ambient_for_media_title">Enable</string>
-
 </resources>
